@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f4f7fc;
+    color: #222;
+}
+
+header {
+    background: #14213d;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #fca311;
+}
+
+section {
+    padding: 70px 8%;
+    min-height: 220px;
+}
+
+#home {
+    background: #e5ecf6;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+#home h1 {
+    font-size: 42px;
+    color: #14213d;
+    margin-bottom: 15px;
+}
+
+#home h2 {
+    margin-bottom: 15px;
+}
+
+#home p {
+    margin-bottom: 25px;
+}
+
+#home a {
+background: #14213d;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #14213d;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+#projects h3 {
+    margin-top: 20px;
+}
+
+footer {
+    background: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background: #14213d;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #14213d;
+    margin-bottom: 15px;
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#contactForm button {
+    background: #14213d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
